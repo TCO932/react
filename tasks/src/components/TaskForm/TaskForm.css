@@ -1,0 +1,33 @@
+
+.subtask_header {
+    display: flex;
+}
+
+.subtask_header h1 {
+    margin: 0;
+    margin-right: 27px;
+}
+
+.grid {  
+    display: grid;
+    grid-template-columns: 2.2fr 0.3fr auto;
+    grid-template-rows: auto;
+    gap: 0 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . .";
+}
+
+.grid span{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.grid button{
+    align-self: center;
+    justify-self: center;
+}

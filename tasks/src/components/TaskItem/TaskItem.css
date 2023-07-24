@@ -1,0 +1,49 @@
+ul {
+    list-style-position: inside;
+}
+
+li::marker {
+    font-size: 10px;
+}
+
+.task {
+    display: flex;
+}
+
+.task span {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+    
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.task .subtasks {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+}
+
+.avatar {
+    margin-left: 12px;
+    margin-right: 14px;
+}
+
+.info {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+.load {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#loadBtn {
+    width: 124px; 
+    height: 30px;
+    padding: 7px;
+}

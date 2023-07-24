@@ -1,0 +1,27 @@
+button.tBtn {
+    border-radius: 6px;
+    border: 2px solid #000;
+    background: #FFF;
+    height: 52px;
+    /* margin-bottom: 22px; */
+
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+button.blackBtn{
+    border-color: #000;
+    background: #000;
+    color: #FFF;
+}
+
+.wideBtn {
+    width: 100%;
+}
